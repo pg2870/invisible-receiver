@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Invisible Receiver</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+          margin: 0; padding: 0 0 48px; color: #1b1b1b; background: #fafafa; }
+  header { background: #11321f; color: #fff; padding: 28px 32px; }
+  header h1 { margin: 0 0 6px; font-size: 28px; }
+  header p { margin: 0; font-size: 15px; opacity: .9; max-width: 900px; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+  section { background: #fff; border: 1px solid #e7e7e7; border-radius: 8px;
+             margin: 22px 0; padding: 14px 18px; }
+  section h2 { font-size: 19px; margin: 6px 0 2px; }
+  section p.note { color: #555; font-size: 13px; margin: 0 0 8px; }
+  table.obj-table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  table.obj-table th, table.obj-table td { padding: 6px 8px; border-bottom: 1px solid #eee;
+                                             text-align: center; }
+  table.obj-table th { background: #11321f; color: #fff; position: sticky; top: 0; }
+  table.obj-table td:last-child { text-align: left; }
+  .scroll { max-height: 460px; overflow: auto; }
+  footer { text-align: center; color: #888; font-size: 12px; margin-top: 26px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>The Invisible Receiver</h1>
+  <p>Finding wide receivers and tight ends who got open on their routes but were
+     not thrown the ball &mdash; measured as the share of a player's routes where
+     he was sustained-open, more open than the actual target, and still ignored.</p>
+</header>
+
+<div class="wrap">
+  <section>
+    <h2>Who gets ignored while open</h2>
+    <p class="note">Interactive &mdash; hover a bar for routes, invisible flags,
+       and average route depth. Odell Beckham Jr. is highlighted in green.</p>
+    <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>                <div id="f892dac6-4c93-4fa4-8871-6c956d88bed2" class="plotly-graph-div" style="height:560px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("f892dac6-4c93-4fa4-8871-6c956d88bed2")) {                    Plotly.newPlot(                        "f892dac6-4c93-4fa4-8871-6c956d88bed2",                        [{"customdata":[[178.0,16.0,7.73],[110.0,10.0,6.22],[118.0,11.0,10.26],[213.0,20.0,8.69],[180.0,17.0,9.27],[126.0,12.0,8.94],[206.0,20.0,6.96],[202.0,20.0,9.46],[208.0,21.0,8.94],[236.0,26.0,7.61],[174.0,20.0,8.44],[128.0,15.0,9.7],[102.0,12.0,6.99],[100.0,12.0,9.23],[114.0,16.0,6.28]],"hovertemplate":"\u003cb\u003e%{y}\u003c\u002fb\u003e\u003cbr\u003eInvisible Rate: %{x:.1f}%\u003cbr\u003eRoutes: %{customdata[0]:.0f}\u003cbr\u003eInvisible flags: %{customdata[1]:.0f}\u003cbr\u003eAvg depth: %{customdata[2]:.1f} yd\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":["#9ecae1","#9ecae1","#9ecae1","#9ecae1","#9ecae1","#9ecae1","#9ecae1","#9ecae1","#9ecae1","#9ecae1","#9ecae1","#2ca02c","#9ecae1","#9ecae1","#9ecae1"]},"orientation":"h","text":["9.0%","9.1%","9.3%","9.4%","9.4%","9.5%","9.7%","9.9%","10.1%","11.0%","11.5%","11.7%","11.8%","12.0%","14.0%"],"textposition":"outside","x":[8.98876404494382,9.09090909090909,9.32203389830508,9.38967136150234,9.44444444444444,9.52380952380952,9.70873786407767,9.900990099009901,10.09615384615384,11.01694915254237,11.49425287356321,11.71875,11.76470588235294,12.0,14.03508771929824],"y":["Jalen Guyton","Ian Thomas","Kenny Golladay","Amari Cooper","Laviska Shenault","Sterling Shepard","Tyler Boyd","Demarcus Robinson","Zach Pascal","Jaylen Waddle","Kendrick Bourne","Odell Beckham","James Washington","Jamal Agnew","Mohamed Sanu"],"type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"margin":{"l":160,"r":60,"t":60,"b":50},"title":{"text":"Top 15 by Invisible Rate (min 100 scored routes, 2021 Weeks 1-8)"},"xaxis":{"title":{"text":"Invisible Rate  (open, un-targeted routes \u002f routes)  %"},"range":[0,16.842105263157887]},"yaxis":{"title":{"text":""}},"height":560,"bargap":0.25},                        {"responsive": true}                    )                };                            </script>        </div>
+  </section>
+
+  <section>
+    <h2>Anatomy of a miss</h2>
+    <p class="note">OBJ's single most-open invisible play at the moment of the
+       throw. He was open by 7.2 yards; the quarterback instead
+       threw to Donovan Peoples-Jones with only 1.2 yards of separation.</p>
+    <div>                            <div id="24298119-5f89-4c6a-8cfa-853121853394" class="plotly-graph-div" style="height:560px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("24298119-5f89-4c6a-8cfa-853121853394")) {                    Plotly.newPlot(                        "24298119-5f89-4c6a-8cfa-853121853394",                        [{"hovertemplate":"%{text}\u003cbr\u003e(%{x:.1f}, %{y:.1f})\u003cextra\u003eOffense\u003c\u002fextra\u003e","marker":{"color":"#1f77b4","line":{"color":"white","width":1},"size":13},"mode":"markers","name":"Offense","text":["J.C. Tretter","Joel Bitonio","Rashard Higgins","David Njoku","Baker Mayfield","Nick Chubb","Wyatt Teller","Blake Hance","James Hudson"],"x":[50.32,51.72,60.29,55.59,46.35,57.48,48.68,45.63,47.45],"y":[23.9,24.79,18.52,40.05,24.5,30.5,21.86,27.23,21.75],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003e(%{x:.1f}, %{y:.1f})\u003cextra\u003eDefense\u003c\u002fextra\u003e","marker":{"color":"#d62728","line":{"color":"white","width":1},"size":13},"mode":"markers","name":"Defense","text":["Chris Harris","Joey Bosa","Kyler Fackrell","Tevaughn Campbell","Michael Davis","Derwin James","Uchenna Nwosu","Kyzir White","Jerry Tillery","Nasir Adderley","Alohi Gilman"],"x":[66.75,44.87,47.9,66.35,77.24,61.66,53.44,62.41,46.42,83.31,77.22],"y":[29.92,25.75,20.48,41.98,12.44,30.01,22.5,16.04,22.31,28.99,18.94],"type":"scatter"},{"hovertemplate":"OBJ\u003cbr\u003eseparation 7.2 yd\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#2ca02c","line":{"color":"black","width":1},"size":24,"symbol":"star"},"mode":"markers+text","name":"OBJ (open, un-targeted)","text":["  OBJ (7.2 yd)"],"textfont":{"color":"#2ca02c","size":13},"textposition":"top center","x":[70.99],"y":[22.49],"type":"scatter"},{"hovertemplate":"Target: Donovan Peoples-Jones\u003cbr\u003eseparation 1.2 yd\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"rgba(0,0,0,0)","line":{"color":"#ff7f0e","width":3},"size":16,"symbol":"circle-open"},"mode":"markers+text","name":"Targeted receiver","text":["  TARGET: Peoples-Jones (1.2 yd)"],"textfont":{"color":"#ff7f0e","size":13},"textposition":"bottom center","x":[76.64],"y":[13.47],"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"shapes":[{"line":{"color":"#e5efe5","width":1},"type":"line","x0":40,"x1":40,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#e5efe5","width":1},"type":"line","x0":45,"x1":45,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#e5efe5","width":1},"type":"line","x0":50,"x1":50,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#e5efe5","width":1},"type":"line","x0":55,"x1":55,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#e5efe5","width":1},"type":"line","x0":60,"x1":60,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#e5efe5","width":1},"type":"line","x0":65,"x1":65,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#e5efe5","width":1},"type":"line","x0":70,"x1":70,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#e5efe5","width":1},"type":"line","x0":75,"x1":75,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#e5efe5","width":1},"type":"line","x0":80,"x1":80,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#e5efe5","width":1},"type":"line","x0":85,"x1":85,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#e5efe5","width":1},"type":"line","x0":90,"x1":90,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#333333","width":2},"type":"line","x0":56.0,"x1":56.0,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#d4a017","dash":"dash","width":2},"type":"line","x0":66.0,"x1":66.0,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#2ca02c","dash":"dash","width":2},"type":"circle","x0":63.819546736781554,"x1":78.16045326321844,"xref":"x","y0":15.319546736781554,"y1":29.660453263218443,"yref":"y"}],"annotations":[{"showarrow":false,"text":"LOS","x":56.0,"xanchor":"center","xref":"x","y":1,"yanchor":"bottom","yref":"y domain"},{"showarrow":false,"text":"1st down","x":66.0,"xanchor":"center","xref":"x","y":1,"yanchor":"bottom","yref":"y domain"}],"margin":{"l":60,"r":40,"t":70,"b":50},"legend":{"orientation":"h","yanchor":"bottom","y":1.02,"x":0},"title":{"text":"OBJ's most-open invisible play - game 2021101009, play 4553  (throw frame, offense -\u003e right)"},"xaxis":{"title":{"text":"Field x (yards, normalized)"},"range":[40.87,87.31]},"yaxis":{"title":{"text":"Field y (yards)"},"range":[-2,56.3],"scaleanchor":"x","scaleratio":1},"height":560},                        {"responsive": true}                    )                };                            </script>        </div>
+  </section>
+
+  <section>
+    <h2>OBJ's 15 invisible plays</h2>
+    <p class="note">Every play flagged invisible for OBJ, sorted by his
+       separation at the throw.</p>
+    <div class="scroll"><table class="dataframe obj-table">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Wk</th>
+      <th>Qtr</th>
+      <th>Down</th>
+      <th>ToGo</th>
+      <th>OBJ sep</th>
+      <th>Depth</th>
+      <th>Target</th>
+      <th>Target sep</th>
+      <th>Play description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5</td>
+      <td>4</td>
+      <td>2</td>
+      <td>10</td>
+      <td>7.2</td>
+      <td>15.0</td>
+      <td>Donovan Peoples-Jones</td>
+      <td>1.2</td>
+      <td>(:26) (Shotgun) B.Mayfield pass incomplete deep right to D.Peoples-Jones.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>3</td>
+      <td>2</td>
+      <td>7</td>
+      <td>6.3</td>
+      <td>2.0</td>
+      <td>Donovan Peoples-Jones</td>
+      <td>4.1</td>
+      <td>(14:21) (Shotgun) B.Mayfield pass short left to D.Peoples-Jones to CLE 34 for 6 yards (M.Davis).</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+      <td>10</td>
+      <td>5.9</td>
+      <td>11.8</td>
+      <td>Rashard Higgins</td>
+      <td>1.3</td>
+      <td>(:27) (Shotgun) B.Mayfield pass short left to R.Higgins pushed ob at MIN 30 for 11 yards (P.Peterson).</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>4</td>
+      <td>1</td>
+      <td>10</td>
+      <td>5.6</td>
+      <td>18.0</td>
+      <td>Jarvis Landry</td>
+      <td>2.3</td>
+      <td>(3:03) B.Mayfield pass incomplete short right to J.Landry.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>10</td>
+      <td>5.2</td>
+      <td>13.3</td>
+      <td>Harrison Bryant</td>
+      <td>2.5</td>
+      <td>(15:00) B.Mayfield pass incomplete deep left to H.Bryant (D.Bush).</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>2</td>
+      <td>1</td>
+      <td>15</td>
+      <td>5.2</td>
+      <td>3.5</td>
+      <td>Jarvis Landry</td>
+      <td>2.0</td>
+      <td>(4:39) (Shotgun) C.Keenum pass incomplete deep right to J.Landry.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>3</td>
+      <td>2</td>
+      <td>12</td>
+      <td>5.2</td>
+      <td>8.1</td>
+      <td>Rashard Higgins</td>
+      <td>1.9</td>
+      <td>(3:03) (Shotgun) B.Mayfield pass incomplete short right to R.Higgins (J.Haden).</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>4</td>
+      <td>3</td>
+      <td>20</td>
+      <td>5.0</td>
+      <td>15.6</td>
+      <td>Anthony Schwartz</td>
+      <td>1.1</td>
+      <td>(13:04) (Shotgun) B.Mayfield pass incomplete deep right to A.Schwartz.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>2</td>
+      <td>3</td>
+      <td>13</td>
+      <td>4.6</td>
+      <td>18.4</td>
+      <td>Anthony Schwartz</td>
+      <td>2.4</td>
+      <td>(11:11) (Shotgun) C.Keenum pass incomplete deep middle to A.Schwartz.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>4</td>
+      <td>1</td>
+      <td>10</td>
+      <td>4.5</td>
+      <td>9.5</td>
+      <td>David Njoku</td>
+      <td>1.0</td>
+      <td>(:41) (Shotgun) B.Mayfield pass short right to D.Njoku to CLE 46 for 10 yards (D.James).</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>1</td>
+      <td>1</td>
+      <td>10</td>
+      <td>4.4</td>
+      <td>9.9</td>
+      <td>Jarvis Landry</td>
+      <td>2.7</td>
+      <td>(13:43) B.Mayfield pass incomplete deep right to J.Landry.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>2</td>
+      <td>3</td>
+      <td>10</td>
+      <td>4.2</td>
+      <td>10.9</td>
+      <td>Rashard Higgins</td>
+      <td>2.0</td>
+      <td>(8:44) (Shotgun) B.Mayfield pass incomplete short left to R.Higgins.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>1</td>
+      <td>1</td>
+      <td>10</td>
+      <td>3.8</td>
+      <td>4.1</td>
+      <td>Austin Hooper</td>
+      <td>1.9</td>
+      <td>(14:57) (Shotgun) B.Mayfield pass incomplete short left to A.Hooper.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>2</td>
+      <td>2</td>
+      <td>10</td>
+      <td>3.8</td>
+      <td>11.7</td>
+      <td>Jarvis Landry</td>
+      <td>0.9</td>
+      <td>(8:48) (Shotgun) B.Mayfield pass incomplete deep middle to J.Landry.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2</td>
+      <td>2</td>
+      <td>10</td>
+      <td>3.4</td>
+      <td>12.0</td>
+      <td>Rashard Higgins</td>
+      <td>1.5</td>
+      <td>(:15) (Shotgun) B.Mayfield pass incomplete deep left to R.Higgins.</td>
+    </tr>
+  </tbody>
+</table></div>
+  </section>
+
+  <footer>Built from NFL Big Data Bowl 2022 tracking data (Weeks 1-8, 2021).
+    Descriptive separation metric, not a causal expected-value model.</footer>
+</div>
+</body>
+</html>

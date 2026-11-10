@@ -1,0 +1,4 @@
+sep_threshold,obj_rank,n_qualified,obj_routes,obj_invisible,obj_invisible_rate
+2.5,3,122,128,16,0.125
+3.0,4,122,128,15,0.1172
+3.5,3,122,128,13,0.1016

@@ -1,0 +1,24 @@
+gameId,playId,nflId,displayName,officialPosition,team,side,x,y,los_x,yardsToGo,is_obj,is_target,pff_role
+2021101009,4553,37724.0,Chris Harris,CB,LAC,defense,66.75,29.92,56.0,10,False,False,Coverage
+2021101009,4553,40070.0,J.C. Tretter,C,CLE,offense,50.32,23.9,56.0,10,False,False,Pass Block
+2021101009,4553,41238.0,Odell Beckham,WR,CLE,offense,70.99,22.49,56.0,10,True,False,Pass Route
+2021101009,4553,41264.0,Joel Bitonio,G,CLE,offense,51.72,24.79,56.0,10,False,False,Pass Block
+2021101009,4553,43292.0,Joey Bosa,OLB,LAC,defense,44.87,25.75,56.0,10,False,False,Pass Rush
+2021101009,4553,43377.0,Kyler Fackrell,OLB,LAC,defense,47.9,20.48,56.0,10,False,False,Pass Rush
+2021101009,4553,43461.0,Rashard Higgins,WR,CLE,offense,60.29,18.52,56.0,10,False,False,Pass Route
+2021101009,4553,44202.0,Tevaughn Campbell,CB,LAC,defense,66.35,41.98,56.0,10,False,False,Coverage
+2021101009,4553,44841.0,David Njoku,TE,CLE,offense,55.59,40.05,56.0,10,False,False,Pass Route
+2021101009,4553,45571.0,Michael Davis,CB,LAC,defense,77.24,12.44,56.0,10,False,False,Coverage
+2021101009,4553,46070.0,Baker Mayfield,QB,CLE,offense,46.35,24.5,56.0,10,False,False,Pass
+2021101009,4553,46086.0,Derwin James,FS,LAC,defense,61.66,30.01,56.0,10,False,False,Coverage
+2021101009,4553,46104.0,Nick Chubb,RB,CLE,offense,57.48,30.5,56.0,10,False,False,Pass Route
+2021101009,4553,46117.0,Uchenna Nwosu,OLB,LAC,defense,53.44,22.5,56.0,10,False,False,Pass Rush
+2021101009,4553,46188.0,Kyzir White,ILB,LAC,defense,62.41,16.04,56.0,10,False,False,Coverage
+2021101009,4553,46235.0,Wyatt Teller,G,CLE,offense,48.68,21.86,56.0,10,False,False,Pass Block
+2021101009,4553,47811.0,Jerry Tillery,DT,LAC,defense,46.42,22.31,56.0,10,False,False,Pass Rush
+2021101009,4553,47843.0,Nasir Adderley,FS,LAC,defense,83.31,28.99,56.0,10,False,False,Coverage
+2021101009,4553,48485.0,Blake Hance,G,CLE,offense,45.63,27.23,56.0,10,False,False,Pass Block
+2021101009,4553,52594.0,Alohi Gilman,SS,LAC,defense,77.22,18.94,56.0,10,False,False,Coverage
+2021101009,4553,52595.0,Donovan Peoples-Jones,WR,CLE,offense,76.64,13.47,56.0,10,False,True,Pass Route
+2021101009,4553,53539.0,James Hudson,T,CLE,offense,47.45,21.75,56.0,10,False,False,Pass Block
+2021101009,4553,,,,football,ball,45.86,24.27,56.0,10,False,False,
